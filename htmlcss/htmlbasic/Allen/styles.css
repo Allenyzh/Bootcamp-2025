@@ -12,12 +12,12 @@ main {
 }
 
 .card {
-  width: 25%;
-  height: 30%;
+  margin-left: 150px;
+  margin-right: 150px;
   background-color: #f0f0f0;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 3.5%;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
