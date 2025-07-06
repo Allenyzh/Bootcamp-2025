@@ -1,0 +1,56 @@
+<!-- '!' 基本的 HTML 模板-->
+<!-- bootstrap 把網頁從左到右分12等分-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- d-flex create a flexbox container and transform direct children elements into flex items, .flex-column to set a vertical direction -->
+
+    <main
+      class="d-flex flex-column flex-md-row border border-primary justify-content-center align-items-center m-5"
+    >
+      <!-- justify-content-center左右中間, justify-content-start/end, align-items-center 上下中間-->
+
+      <div class="fw-bold">My Card</div>
+      <div>content here</div>
+    </main>
+
+    <!-- sm= viewport≥576px, md≥768px -->
+    <div class="row m-2">
+      <div class="col-9 col-md-1 border border-primary">123</div>
+      <div class="col-4 col-md-11 border border-primary">1223</div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4 offset-2">Col One</div>
+      <div class="col-sm-4 offset-1">Col Two</div>
+    </div>
+    <!-- offset前面加空格-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
